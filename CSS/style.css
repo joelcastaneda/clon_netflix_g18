@@ -175,9 +175,6 @@ body {
   text-decoration: underline;
 }
 
-.logos a{
-  padding: 10px;
-}
 
 .logo {
   color: var(--dark);
@@ -330,12 +327,7 @@ footer {
     transform: scale(1.2);
   }
 
-  .logos {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-  }
+ 
 
   .sub-links ul {
     display: grid;
