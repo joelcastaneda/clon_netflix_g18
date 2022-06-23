@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <div id="nav" class="nav">
-      <img class="nav__logo" src="images/netflix-logo.png" alt="" />
-    </div>
+
+     <!-- HEADER -->
+     <header>
+        <div class="netflixLogo">
+          <a id="logo" href="#home"><img src="images/netflix-logo.png" alt="Logo Image"></a>
+        </div>      
+        <nav class="main-nav">                
+          <a href="#home">Inicio</a>
+          <a href="#tvShows">Programas de Tv</a>
+          <a href="#movies">Peliculas</a>
+          <a href="#originals">Originales</a>
+          <a href="#recentlyAdded">Recientemente añadido</a>
+          <a href="#myList">Mi Lista</a>        
+        </nav>
+        <nav class="sub-nav">
+          <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+          <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+          <a href="#">Cuenta</a>        
+        </nav>      
+      </header>
+    
     <header class="banner">
       <div class="banner__contents">
         <h1 class="banner__title">Solo en Netflix</h1>
@@ -132,6 +150,39 @@
         <img class="row__poster" src="images/tv10.jpg" alt="" />
       </div>
     </div>
+
+    <section class="link">
+      <div class="logos">
+        <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+      </div>
+      <div class="sub-links">
+        <ul>
+          <li><a href="#">Audio y Subtítulos</a></li>
+          <li><a href="#">Audio Descripción</a></li>
+          <li><a href="#">Centro de ayuda</a></li>
+          <li><a href="#">Tarjetas de regalo</a></li>
+          <li><a href="#">Centro de Mediosr</a></li>
+          <li><a href="#">Relaciones con inversionistas</a></li>
+          <li><a href="#">Trabajos</a></li>
+          <li><a href="#">Términos de Uso</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Avisos legales</a></li>
+          <li><a href="#">Información corporativa</a></li>
+          <li><a href="#">Contacta con Nosotros</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- END OF LINKS -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy 1997-2022 Netflix, Mexico.</p>
+      <p>DEV.F &copy 2022</p>
+    </footer>
+  </div>
     
     <script>
       const nav = document.getElementById('nav');
