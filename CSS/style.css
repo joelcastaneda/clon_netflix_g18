@@ -273,7 +273,7 @@ footer {
    
 }
 
-@media(max-width: 500px) {
+@media(max-width: 400px) {
 
   .wrapper {
     font-size: 15px;
@@ -313,9 +313,9 @@ footer {
 
  
 
-  .row__postersbox {
+  .row__posters {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 18;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;    
   }
